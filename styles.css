@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	background-color: #C7ED59 !important;
+}
+
+header {
+	background-image: url("./../images/front-right-side-of-blue-sedan-car.jpg");
+	height: 40rem;
+	position: relative;
+	
+}
+
+header h1{
+	font-size: 5rem;
+	color: #1D3ABC ;
+	position: absolute;
+	top: 12rem;
+	right: 5rem;
+
+}
+
+.container-info {
+	display: flex;
+	margin-top: 1rem;
+}
+
+.sidebar{
+	background-color: #1D3ABC ;
+	width: 20%;
+	margin-top: 1rem;
+	padding: 3rem 1rem;
+	box-shadow: 7px 13px 37px #000;
+	border-radius: 1rem 1rem;
+}
+
+.sidebar p{
+	margin-top: 3rem;
+	color:antiquewhite;
+	font-family:  "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.sidebar img {
+	margin-top: 1rem;
+	width: 90%;
+}
+
+.menu {
+	list-style: none;
+	margin-top: 2rem;
+}
+
+.menu li {
+	font-size: 1.5rem;
+	background-color: #35AED8;
+	margin-bottom: 1rem;
+	text-align: center;
+	border-radius: 1rem;
+	padding: 0.5rem 0;
+	transition: all 0.5s;
+}
+
+.menu li:hover {
+	background-color: #5F35D8;
+	transition: all 0.5s;
+}
+
+a{
+	text-decoration: none !important;
+	text-decoration-color: none !important;
+	color: aliceblue !important;
+}
+
+.index__section {
+  width: 75%;
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.index__section img {
+	width: 75%;
+	border-radius: 2rem;
+	padding: 1rem;
+}
+
+.autos {
+	padding: 3rem 2rem;
+}
+
+.autos__1{
+	display: flex;
+	justify-content: space-around;
+}
+
+#car__1, #car__2 {
+	width: 80%;
+	border-radius: 2rem;
+}
+
+.autos__2{
+	display: flex;
+	justify-content: space-around;
+}
+
+#car__3, #car__4 {
+	width: 80%;
+	border-radius: 2rem;
+}
+
+.autos__card-description li {
+	list-style: none;
+}
+
+.my-button-deploy {
+	font-size: 1.5rem;
+	background-color: #35AED8;
+	margin-bottom: 1rem;
+	text-align: center;
+	border-radius: 1rem;
+	padding: 0.5rem 5.5rem;
+	transition: all 0.5s;
+	border: none;
+	color: aliceblue;
+	cursor: pointer;
+}
+
+.dropdown-item {
+	color: black !important;
+}
+
+.my-button-deploy:hover{
+	background-color: #5F35D8;
+	transition: all 0.5s;
+}
+

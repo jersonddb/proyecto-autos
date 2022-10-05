@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	background-color: #C7ED59 !important;
+}
+
+header {
+	background-image: url("./../images/front-right-side-of-blue-sedan-car.jpg");
+	height: 40rem;
+	position: relative;
+	
+}
+
+header h1{
+	font-size: 5rem;
+	color: #1D3ABC ;
+	position: absolute;
+	top: 12rem;
+	right: 5rem;
+
+}
+
+.container-info {
+	
+	margin-top: 1rem;
+}
+
+.sidebar{
+	background-color: #1D3ABC ;
+	width: 20%;
+	margin-top: 1rem;
+	padding: 3rem 1rem;
+	position: absolute;
+	margin-bottom: 2rem;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.sidebar p{
+	margin-top: 3rem;
+	color:antiquewhite;
+	font-family:  "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.sidebar img {
+	margin-top: 1rem;
+	width: 90%;
+}
+
+.menu {
+	list-style: none;
+	margin-top: 2rem;
+}
+
+.menu li {
+	font-size: 1.5rem;
+	background-color: #35AED8;
+	margin-bottom: 1rem;
+	text-align: center;
+	border-radius: 1rem;
+	padding: 0.5rem 0;
+	transition: all 0.5s;
+}
+
+.menu li:hover {
+	background-color: #5F35D8;
+	transition: all 0.5s;
+}
+
+a{
+	text-decoration: none !important;
+	text-decoration-color: none !important;
+	color: aliceblue !important;
+}
+.form-register {
+	width: 400px;
+	background-color: #1D3ABC;
+	padding: 5rem;
+	margin: auto;
+	position: inherit;
+	margin-bottom: 50rem;
+	border-radius: 3rem;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	margin-top: 2rem;
+	
+}
+
+.form-register h4{
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.controls {
+	width: 100%;
+	background: #E3DBDB;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+	border: 1px solid #393838;
+}
+
+.form-register p {
+	text-align: center;
+	height: 40px;
+}
+
+.form-register a:hover {
+	color: aliceblue;
+	text-decoration: underline;
+}
+
+.form-register .botons {
+	width: 100%;
+	background: #00ABE7;
+	border: none;
+	padding: 12px;
+	color: white;
+	font-size: 16px;
+	border-radius: 1rem;
+	
+}
+
+.my-button-deploy {
+	font-size: 1.5rem;
+	background-color: #35AED8;
+	margin-bottom: 1rem;
+	text-align: center;
+	border-radius: 1rem;
+	padding: 0.5rem 5.5rem;
+	transition: all 0.5s;
+	border: none;
+	color: aliceblue;
+	cursor: pointer;
+}
+
+.dropdown-item {
+	color: black !important;
+}
+
+.my-button-deploy:hover{
+	background-color: #5F35D8;
+	transition: all 0.5s;
+}
