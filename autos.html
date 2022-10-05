@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css"/>
+	
+	<!--inicio bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!--final bootstrap-->
+	
+<title>Autos compra Ya!</title>
+</head>
+
+<body>
+	<header>
+		<h1>Autos compra Ya!</h1>
+	</header>
+	<div class="container-info">
+		<aside class="sidebar">
+			<h1>Menú Principal</h1>
+			<nav>
+			<ul class="menu">
+					<a href="index.html"><li>Página principal</li></a>
+					<a href="autos.html"><li>Autos</li></a>
+					<div class="btn-group dropright">
+                    <button type="button" class="my-button-deploy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Servicios
+                    </button>
+                    <div class="dropdown-menu">
+						<a class="dropdown-item" href="mantenimiento.html">Mantenimiento</a>
+						<a class="dropdown-item" href="montallantas.html">Montallantas</a>
+						<a class="dropdown-item" href="alineacion y balanceo.html">Alineación y balanceo</a>
+                    <!-- Dropdown menu links -->
+                    </div>
+                    </div>
+					
+					<a href="contactos.html"><li>Contáctos</li></a>
+				</ul>
+			</nav>
+			<p>Disfruta de nuestros mejores autos a un precio increible ven ya!.</p>
+			<img src="images/happy-man.png"/>
+		</aside>
+		
+		<section class="index__section">
+			<div class="autos__1">
+				
+				<!--AUTOMOVIL 1-->
+				<div class="autos__card">
+					<h3>Renault Symbol Mod. 2012</h3>
+					<img src="images/autos/renault.jpg" id="car__1" 
+						 onmouseover = "openImg ('car__1')" 
+						 onmouseleave = "returnImg ('car__1')"/>
+					 
+					<div class="autos__card-description">
+					<h4>Precio: $45.600.000</h4>
+						<ul>
+							<li>SOAT: 12/05/2023</li>
+							<li>Tecno Mecanica: 12/06/2023</li>
+							<li>Placas: Medellin</li>
+							<li>KM: 43.000</li>
+						</ul>
+					</div>
+			</div>
+				
+				<!--AUTOMOVIL 2-->
+					<div class="autos__card">
+					<h3>Ford Mustang Mod.2008</h3>
+					<img src="images/autos/ford.jpg" id="car__2"
+						 onmouseover = "openImg ('car__2')" 
+						 onmouseleave = "returnImg ('car__2')"/>
+						
+					<div class="autos__card-description">
+					<h4>Precio: $84.600.000</h4>
+						<ul>
+							<li>SOAT: 12/05/2023</li>
+							<li>Tecno Mecanica: 12/06/2023</li>
+							<li>Placas: Medellin</li>
+							<li>KM: 36.700</li>
+						</ul>
+					</div>
+			</div>
+		
+			
+<div class="autos__2">
+				
+				<!--AUTOMOVIL 1-->
+				<div class="autos__card">
+					<h3>Chevrolet Camaro 6.2 Ss Mod.2011</h3>
+					<img src="images/autos/chevrolet.jpg" id="car__3" 
+						 onmouseover = "openImg ('car__3')" 
+						 onmouseleave = "returnImg ('car__3')"/>
+					 
+					<div class="autos__card-description">
+					<h4>Precio: $97.000.000</h4>
+						<ul>
+							<li>SOAT: 12/01/2023</li>
+							<li>Tecno Mecanica: 12/02/2023</li>
+							<li>Placas: Medellin</li>
+							<li>KM: 52.000</li>
+						</ul>
+					</div>
+			</div>
+				
+				<!--AUTOMOVIL 2-->
+					<div class="autos__card">
+					<h3>Ford Mustang Mod.2008</h3>
+					<img src="images/autos/mercedes.jpg" id="car__4"
+						 onmouseover = "openImg ('car__4')" 
+						 onmouseleave = "returnImg ('car__4')"/>
+						
+					<div class="autos__card-description">
+					<h4>Precio: $185.600.000</h4>
+						<ul>
+							<li>SOAT: 10/05/2023</li>
+							<li>Tecno Mecanica: 11/06/2023</li>
+							<li>Placas: Medellin</li>
+							<li>KM: 42.700</li>
+						</ul>
+					</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
+	
+	<script type="text/javascript">
+		function openImg (car) {
+			car = document.getElementById (car)
+			car.style.width = "70%"
+			car.style.transition = "all 0.5s"
+		}
+		
+		function returnImg (car) {
+			car = document.getElementById (car)
+			car.style.width = "50%"
+			car.style.transition = "all 0.5s"
+		}
+	</script>
